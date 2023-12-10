@@ -1,0 +1,97 @@
+body {/*corp*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;/*marge*/
+    background: #222;
+    font-family: arial;/*Police*/
+   
+    background-size: cover;/*taille de l'arrière plan*/
+    background-position: center center;/*position de l'arrière plan*/
+    background-repeat: no-repeat;/*répétition de l'arrière plan*/
+    font-size: 120%;
+}
+
+.interface {
+    background:linear-gradient(#000428,#004e92);/*arrière paln + dégrader*/
+    color: whitesmoke;/*couleur d'écriture*/
+    padding: 3em;/*Remplissage pour pas que les élément se touche*/
+    border-radius: 22px;/*bordure Arrondie*/
+    width: 200%;
+    max-width: 420px;
+    margin: 3em;/*marge*/
+	font-family: arial;/*Police*/
+	box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;/*Ombre*/
+}
+
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+	text-align: center ;
+	font-family: arial;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+	font-family: arial;
+}
+
+.description {
+    text-transform: capitalize;
+	font-family: arial;
+	text-align: center;
+}
+
+
+
+.card:hover {
+    box-shadow: 5px 5px 5px #00000056;
+}
+
+}
+
+
+.icon ,
+.description {
+	font-family: arial;
+	text-align: center ;
+	align-items: center;
+	
+}
+
+.humidity {
+	border-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    display: inline;
+    justify-content: right;
+    align-items: right;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px ;
+	font-family: arial
+}
+
+.wind {
+	 border-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    display: inline;
+    justify-content: left;
+    align-items: left;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px ;
+	font-family: arial
+}
+
+.auj {
+	font-family: arial;
+	text-align: center ;
+	align-items: center
+}	
+
+.icon {
+	margin-left: 115.2px
+}

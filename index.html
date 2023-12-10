@@ -1,0 +1,31 @@
+<!DOCTYPE html><!--Type du Document-->
+
+<html lang="fr"><!--Langue de la page-->
+	<head><!--En-tête de la page-->
+		<meta charset="utf-8"><!--Permet d'éviter les erreurs de caractère-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--compatibilité avec les autres navigateur-->
+		<link href="style.css" rel="stylesheet" /><!--Lien avec le fichier CSS-->
+		<script src="script.js" defer></script><!--Lien avec les fichier JavaScript-->
+		<title>Température</title><!--Titre de la page-->
+	</head><!--Fin de l'en-tête-->
+		
+	<body><!--le "corp" de la page(se qui est visible sur le site)-->
+		<section class="interface"><!--section de la page + classe-->
+			<div><p class="auj">Aujourd'hui</p></div><!--division de la page + classe-->
+			<div class="weather"><!--Division de la page + classe-->
+				<h2 class="city">Météo dans</h2><!--Titre (donné static dans le cas où js marche pas)2 + classe-->
+			</div>
+				
+				<div>
+					<div class="wind">Vitesse du Vent: 6.2 km/h</div>
+					<div class="humidity">Humidité: 60%</div><!--Division (donné static dans le cas où js marche pas)+ classe-->
+				</div>
+				
+				<div class="flex"><!--Division de la page + classe-->
+					<img src="https://openweathermap.org/img/wn/02n.png" class="icon"></img><!--Source + Image + classe-->
+					<div><p class="description">Nuageux</p></div><!--description (donné static dans le cas où js marche pas)+ classe-->
+				</div><!--Fin de la division-->
+				<div><h1 class="temp">15°C</h1></div>
+		</section><!--Fin de la section-->
+	</body><!--Fin du Corp-->
+</html><!--Fin de la Page-->
